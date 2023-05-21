@@ -1,0 +1,20 @@
+.expence-item-container {
+  background-color: #5b8fb9;
+  border-radius: 12px;
+  border: 2px solid #ffffff;
+  padding: 0 50px;
+}
+
+.expence-item-price {
+  background-color: #301e67;
+  border-radius: 5px;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  font-size: 1.2rem;
+  padding: 10px;
+}
+
+.expence-item-img {
+  width: 50px;
+}
+

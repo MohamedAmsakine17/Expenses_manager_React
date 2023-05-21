@@ -1,0 +1,48 @@
+label {
+  color: #fff;
+  display: block;
+  font-size: 1.5rem;
+}
+
+.new-Expenses_Form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.new-Expenses_Controll {
+  border-radius: 10px;
+  border: none;
+  font-size: 1rem;
+  font-weight: bold;
+  height: 35px;
+  width: 300px;
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.new-Expenses_Controll:focus {
+  outline: none;
+}
+
+.buy-btn {
+  background-color: #5b8fb9;
+  border-radius: 10px;
+  border: 2px solid #fff;
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: bold;
+  width: 100px;
+  height: 100%;
+  margin: auto;
+  transition: 0.5s;
+}
+
+.buy-btn:hover {
+  cursor: pointer;
+  background-color: #301e67;
+}
+
+.new-Expenses_Group:has(.buy-btn) {
+  display: flex;
+  flex-wrap: wrap;
+}

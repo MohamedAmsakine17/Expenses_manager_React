@@ -1,0 +1,15 @@
+
+.expense-filter {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.expense-filter-select {
+    background-color:#5b8fb9 ;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 5px;
+}
